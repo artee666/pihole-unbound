@@ -1,5 +1,5 @@
 # Pi-Hole + Unbound on Docker
-This docker-compose runs the following 2 services
+- This docker-compose runs the following 2 services
     - Pi-Hole ([pihole/pihole](https://hub.docker.com/r/pihole/pihole)) - Official from Pi-Hole
     - Unbound([artee666/unbound](https://hub.docker.com/r/artee666/unbound)) - Unbound as recursive resolver based on Alpine edge
 
