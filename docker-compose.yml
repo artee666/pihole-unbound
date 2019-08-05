@@ -28,7 +28,6 @@ services:
     restart: always
   unbound:
     container_name: unbound
-#    build: ./unbound/
     image: artee666/unbound
     hostname: unbound
     networks:
