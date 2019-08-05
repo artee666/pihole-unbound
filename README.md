@@ -15,7 +15,9 @@ Several environment variables are defined:
 | DNS_IP       | IP address of some DNS server (could be another instance of Pi-Hole) | 1.1.1.1       |
 
 These could be either set on the commandline: 
-```PIHOLE_PWD=123456 UNBOUND_IP=172.20.0.99 PINET_SUBNET=172.20.0.0/24 DNS_IP=1.1.1.1 docker-compose up -d```
+```
+PIHOLE_PWD=123456 UNBOUND_IP=172.20.0.99 PINET_SUBNET=172.20.0.0/24 DNS_IP=1.1.1.1 docker-compose up -d
+```
 
 or put into `.env` file as:
 ```
